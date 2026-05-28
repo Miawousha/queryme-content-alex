@@ -1,0 +1,67 @@
+# Curation layer for /cv — picks and orders the KB content that appears on
+# the printable CV. The KB itself is untouched (the chat agent still sees
+# everything). Three shapes per section:
+#
+#   - omit the key entirely  → show everything (default)
+#   - all: true              → show everything (explicit)
+#   - include: [...]         → whitelist; order preserved from the array
+#
+# Identifiers:
+#   experience / projects / talks / code → file slug (basename, no .md)
+#   skills      → skill.name (case-insensitive)
+#   education   → institution (case-insensitive)
+#
+# Unknown identifiers are warned but not fatal — the section just renders
+# without them.
+
+experience:
+  include:
+    - 2025-altergo
+    - 2022-maxwell
+    - 2018-ion-energy
+    - 2011-freemens
+    - 2009-cnrs
+
+education:
+  all: true
+
+skills:
+  all: true
+
+projects:
+  all: true
+
+talks:
+  all: true
+
+code:
+  all: true
+
+# Chat agent curation. `featured_code` is the curated set the chat agent
+# pre-loads in its system prompt under `# Code (featured)`; remaining repos
+# render as one-line stubs under `# Code (index)` and are fetched on demand
+# via the `lookup_code_entries` tool. Omit or leave empty to inline every
+# repo (back-compat).
+chat:
+  featured_code:
+    # Meta: the agent answering you is this codebase.
+    - queryme
+    # Battery / energy domain — Alexandre's anchor.
+    - aging-battery-lifetime-simulator
+    - battery-capacity-sizer
+    - battery-usage-analyzer
+    - bess-control-sim
+    - hydrogen
+    - rtbm
+    - rtbm-dataset-generator
+    - soc
+    - sop
+    - arbitrage
+    # AI agents and Next.js full-stack range.
+    - learn-anything
+    - polypress
+    - ontoloom
+    - feedsnap
+    # Desktop and marketing-stack range.
+    - sirene
+    - matrice-website
