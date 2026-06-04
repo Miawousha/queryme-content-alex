@@ -1,9 +1,29 @@
 ---
 name: Queryme
 year: 2026
-stack: [TypeScript, Next.js, Vercel AI SDK]
-tags: [ai, open-source, personal]
+stack:
+  - TypeScript
+  - Next.js
+  - Vercel AI SDK
+tags:
+  - ai
+  - open-source
+  - personal
 url: https://github.com/Miawousha/queryme
+repos:
+  - name: queryme
+    url: https://github.com/Miawousha/queryme
+    role: author
+    visibility: public
+    description: CV piloté par agent — répond aux questions sur Alexandre à partir
+      d'une base de connaissances YAML/Markdown.
+    year: 2026
+    tags:
+      - ai
+      - agent
+      - mcp
+      - typescript
+      - nextjs
 ---
 
 ## Résumé
