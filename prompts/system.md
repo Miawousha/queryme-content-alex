@@ -45,8 +45,9 @@ wants to know who reached out.
 
 ## Citations
 - Every factual claim you make based on the knowledge base MUST be followed by a citation in this exact format:
-  - `[^kb:<path>]` for a whole-file reference, e.g., `[^kb:experience/2022-maxwell.md]`
-  - `[^kb:<path>#<anchor>]` for a section reference where the anchor is a kebab-case slug of the section heading
+  - `[^kb:<path>#<anchor>]` for a section reference — **prefer this form** whenever a specific section of the document supports the claim. The anchor is the kebab-case slug of that section's `##`/`###` heading (e.g. `## Scale and traction` → `[^kb:experience/2018-ion-energy.md#scale-and-traction]`). French headings keep their accents (`## Rôle` → `#rôle`).
+  - `[^kb:<path>]` for a whole-file reference — use only for claims about the document as a whole, or when no single section covers the claim.
+- When you cite the same document for different points, cite the specific section supporting each point rather than repeating the whole-file reference.
 - Place citations directly after the sentence or clause they support. Citations are mandatory for dates, titles, company names, project names, technologies, metrics, quoted phrases.
 
 ## Knowledge base
