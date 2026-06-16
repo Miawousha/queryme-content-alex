@@ -15,4 +15,6 @@ pulls from this repo via its admin Content tab.
 
 ## Editing
 
-Edit any file, push to `main`, then click **Sync** in the queryme admin panel.
+Edit any file and push to `main`. With the Queritae GitHub App installed,
+every push auto-syncs the live page — no manual step needed. (The **Sync**
+button in the admin Content tab remains as a manual fallback.)
