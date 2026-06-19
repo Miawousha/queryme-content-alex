@@ -4,25 +4,33 @@ role: Co-fondateur & CTO
 start: "2022-05"
 end: "2025-03"
 location: Bengaluru (siège) et Aurangabad (fabrication), Inde
+summary: Co-fondateur & CTO portant le hardware BMS de ION dans un équipementier automobile de rang 1 — des BMS à sûreté fonctionnelle vendus par millions d'unités.
+highlights:
+  - Co-fondateur & CTO de Maxwell Energy Systems, essaimage de l'activité hardware BMS de ION, racheté par l'équipementier automobile de rang 1 Endurance Technologies pour 40 M$ (mai 2022).
+  - Organisation d'ingénierie portée à ~100 personnes, avec des BMS à sûreté fonctionnelle vendus par millions d'unités.
+  - Développement du BMS sur-mesure de la première moto électrique de Royal Enfield, la Flying Flea C6, sur la plateforme HP-Safe de Maxwell (haute puissance, à sûreté fonctionnelle, sous 100 V) — avec l'équipe R&D et le CTO de Royal Enfield.
+  - Passage en production de volume du programme Hero MotoCorp — premier BMS deux-roues à sûreté fonctionnelle d'Inde — avec le Tech Center de HMCL en Allemagne.
+  - Élargissement de la gamme au-delà du BMS — boîtiers télématiques (TCU), chargeurs embarqués et unités de contrôle moteur (MCU).
+  - Montée du hardware et firmware BMS aux standards de qualification automobile et de sûreté fonctionnelle dans un groupe industriel de rang 1 ; plus de 85 clients dans plus de 15 pays.
+  - Pilotage des axes technologiques — réseau & maillage de puissance batterie, multi-chimie (sodium-ion/solid-state), sûreté fonctionnelle (FuSa), télémétrie cloud & diagnostics ML à distance, OTA & cybersécurité, architecture software-defined, et outils internes HIL & PLM.
 stack: [BMS hardware, Embedded firmware, Functional safety, Automotive qualification]
 tags: [cto, hardware, battery, automotive]
 ---
 
 ## Contexte
-Maxwell Energy Systems a repris l'activité hardware d'électronique avancée et de gestion de batterie de ION Energy, avec un siège à **Bengaluru** et une ligne de fabrication SMT dédiée à **Aurangabad**, dans l'empreinte industrielle d'Endurance. En mai 2022, **Endurance Technologies** — un grand équipementier automobile indien de rang 1 — a racheté Maxwell pour **40 M$** (51 % acquis d'emblée pour ~17,5 M$, le solde étalé sur cinq ans). Le BMS de Maxwell est devenu la porte d'entrée d'Endurance dans les produits dédiés au VE, les co-fondateurs Akhil Panjwani et Alexandre Collet s'étant engagés à mener l'intégration tout au long de la fenêtre d'earn-out.
+Maxwell Energy Systems a repris l'activité hardware d'électronique avancée et de gestion de batterie de ION Energy, avec un siège à **Bengaluru** et une ligne de fabrication SMT dédiée à **Aurangabad**, dans l'empreinte industrielle d'Endurance. En mai 2022, **Endurance Technologies** — un grand équipementier automobile indien de rang 1 — a racheté Maxwell pour **40 M$** (51 % acquis d'emblée pour ~17,5 M$, le solde étalé sur cinq ans). Le BMS de Maxwell est devenu la porte d'entrée d'Endurance dans les produits dédiés au VE, les co-fondateurs Akhil Aryan et Alexandre Collet s'étant engagés à mener l'intégration tout au long de la fenêtre d'earn-out.
 
 ## Rôle
 Co-fondateur et CTO durant l'acquisition et l'intégration d'une technologie issue d'une startup dans un groupe industriel de rang 1. Responsable du hardware, du firmware et du software des systèmes de gestion de batterie de Maxwell, et de la montée en maturité de cette technologie aux standards automotive grade et de la production en volume, au sein d'un équipementier en relation directe avec les constructeurs. Mise à l'échelle de l'organisation d'ingénierie jusqu'à environ **100 ingénieurs**.
 
-Le portefeuille produit sous cette organisation couvrait les BMS basse tension (FS-LT, CT-Safe, famille CT-Lite), les BMS haute tension (FS-XT, HP-Safe), des unités de distribution de puissance intelligentes à base de relais statiques (SB-B / SB-PR-I), un boîtier télématique de niveau automobile (TCU), des chargeurs embarqués et des unités de contrôle moteur — avec des axes technologiques actifs sur la commutation GaN/SiC, le support multi-chimie (incluant sodium-ion et solid-state), le BMS prédictif par ML, le V2G et l'OTA.
+Le portefeuille produit sous cette organisation couvrait les BMS basse tension (FS-LT, CT-Safe, famille CT-Lite), les BMS haute tension (FS-XT), les BMS haute puissance sous 100 V (HP-Safe), des unités de distribution de puissance intelligentes à base de relais statiques (SB-B / SB-PR-I), un boîtier télématique de niveau automobile (TCU), des chargeurs embarqués et des unités de contrôle moteur — avec des axes technologiques actifs sur le réseau et le maillage de puissance batterie, le support multi-chimie (sodium-ion et solid-state), la sûreté fonctionnelle (FuSa), la télémétrie cloud et les diagnostics ML à distance, l'OTA et la cybersécurité, l'architecture software-defined, et les solutions numériques internes de HIL et de gestion du cycle de vie produit (PLM).
 
 ## Clients et programmes
-- **Royal Enfield** — développement du BMS haute tension sur-mesure de la première moto électrique de Royal Enfield, la **Flying Flea C6**, en collaboration étroite avec l'équipe R&D et le CTO de Royal Enfield.
-- **Hero MotoCorp (HMCL)** — passage en production de volume du programme BMS lancé chez ION, qui avait livré le premier BMS deux-roues à sûreté fonctionnelle d'Inde. Travail direct avec le Tech Center de HMCL en Allemagne sur le BMS de mise en production (SOP) et sur des prototypes de relais statiques haute performance.
-- **Hero Electric** — partenariat long terme de janvier 2023 pour la fourniture de plus d'**1 million de BMS sur trois ans** sur l'ensemble de la gamme de deux-roues électriques de Hero Electric, entièrement conformes AIS-156 et multi-chimies.
-- **Wamtechnik (Pologne)** — poursuite du partenariat technologique de gestion de batterie avec le fabricant polonais de packs batterie, entamé lors de la phase ION Energy.
+- **Royal Enfield** — développement d'un BMS sur-mesure de la première moto électrique de Royal Enfield, la **Flying Flea C6**, basé sur la plateforme **HP-Safe** de Maxwell (haute puissance, à sûreté fonctionnelle, sous 100 V), en collaboration étroite avec l'équipe R&D et le CTO de Royal Enfield.
+- **Hero MotoCorp (HMCL)** — passage en production de volume du programme BMS lancé chez ION, qui avait livré le premier BMS deux-roues à sûreté fonctionnelle d'Inde. Travail direct avec le Tech Center de HMCL en Allemagne sur le BMS de mise en production (SOP) et sur des prototypes de relais statiques haute performance.- **Wamtechnik (Pologne)** — poursuite du partenariat technologique de gestion de batterie avec le fabricant polonais de packs batterie, entamé lors de la phase ION Energy.
+- **Replus (Inde)** — fourniture de systèmes de gestion de batterie à l'entreprise indienne de batteries / stockage d'énergie.
 
-À la fin de cette période, Maxwell affichait publiquement **plus de 550 000 BMS déployés**, **plus de 85 clients** et une présence dans plus de **15 pays**, avec un carnet de commandes en centaines de crores de roupies au moment du rachat par Endurance.
+À la fin de cette période, Maxwell avait **vendu des BMS à sûreté fonctionnelle par millions d'unités**, avec **plus de 85 clients** et une présence dans plus de **15 pays**, et un carnet de commandes en centaines de crores de roupies au moment du rachat par Endurance.
 
 ## Axes de travail
 - Maturation du hardware et du firmware BMS vers la qualification automobile et les exigences de sûreté fonctionnelle.
