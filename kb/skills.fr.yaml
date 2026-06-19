@@ -1,28 +1,28 @@
 skills:
   - name: Gestion de batterie
     level: 5
-    years: 15
+    years: 17
     tags: [battery, hardware, expert]
     # Conception SOX (SOC, SOH, SOP), intégration BMS, technologies d'équilibrage,
     # vieillissement, comportement thermique, mise en parallèle, model-based design, émulation.
   - name: Électronique de puissance
     level: 4
-    years: 15
+    years: 17
     tags: [hardware]
     # Onduleur, dual active bridge, équilibrage actif, relais statiques, PSIM.
   - name: Électronique
     level: 4
-    years: 15
+    years: 17
     tags: [hardware]
     # Conception de schémas et de PCB, signaux mixtes, microcontrôleurs, contrôle d'électronique de puissance.
   - name: Génie électrique
     level: 4
-    years: 15
+    years: 17
     tags: [hardware]
     # Architectures réseau, distribution, PDU électromécaniques, chaînes de traction LEV / VE.
   - name: Logiciel embarqué
     level: 4
-    years: 15
+    years: 17
     tags: [software, firmware]
     # Architectures 16 et 32 bits, RTOS, conception modulaire, gestion de versions.
   - name: Génie logiciel

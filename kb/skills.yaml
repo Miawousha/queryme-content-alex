@@ -1,28 +1,28 @@
 skills:
   - name: Battery management
     level: 5
-    years: 15
+    years: 17
     tags: [battery, hardware, expert]
     # SOX design (SOC, SOH, SOP), BMS integration, balancing technologies,
     # aging, thermal behaviour, paralleling, model-based design, emulation.
   - name: Power electronics
     level: 4
-    years: 15
+    years: 17
     tags: [hardware]
     # Inverter, dual active bridge, active balancing, solid-state relays, PSIM.
   - name: Electronics
     level: 4
-    years: 15
+    years: 17
     tags: [hardware]
     # Schematic and layout design, mixed signals, MCUs, power-electronics control.
   - name: Electrical engineering
     level: 4
-    years: 15
+    years: 17
     tags: [hardware]
     # Grid architectures, distribution, electromechanical PDUs, LEV / EV powertrains.
   - name: Embedded software
     level: 4
-    years: 15
+    years: 17
     tags: [software, firmware]
     # 16- and 32-bit architectures, RTOS, modular design, version control.
   - name: Software engineering

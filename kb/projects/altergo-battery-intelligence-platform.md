@@ -1,6 +1,6 @@
 ---
 name: Altergo Battery Intelligence Platform
-year: 2026
+year: 2022
 tags:
   - battery
   - energy

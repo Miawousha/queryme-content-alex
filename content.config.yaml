@@ -1,0 +1,46 @@
+# Declares the content collections for this persona. Mirrors the app's default
+# resume preset and adds a `publications` collection (markdown, generic schema)
+# so academic output surfaces in the chat agent and the KB panel.
+#
+# NOTE: publications are NOT rendered on the printable CV — the CV renders a
+# fixed set of sections (experience, education, skills, projects, talks, code).
+# Collection order below IS the knowledge-base assembly order.
+locales: [en, fr]
+collections:
+  - name: profile
+    kind: yaml
+    schema: profile
+    required: true
+  - name: skills
+    kind: yaml
+    schema: skills
+    required: true
+  - name: education
+    kind: yaml
+    schema: education
+    required: true
+  - name: public-contact
+    kind: yaml
+    schema: public-contact
+    required: true
+  - name: experience
+    kind: markdown
+    schema: experience
+  - name: projects
+    kind: markdown
+    schema: project
+  - name: publications
+    kind: markdown
+    schema: generic
+    label:
+      en: Publications
+      fr: Publications
+    sort:
+      field: year
+      order: desc
+  - name: talks
+    kind: markdown
+    schema: talk
+  - name: recommendations
+    kind: markdown
+    schema: recommendation
