@@ -8,7 +8,7 @@ summary: Co-founded and led the company that brought power electronics inside th
 highlights:
   - Co-founded Freemens with Jean-Christophe Crébier (Oct 2011) and led it as CEO (Président) from a two-person research spin-out to a commercial product company through acquisition; grew the team to nine engineers.
   - Designed XARM — a custom chip embedding a full multi-leg inverter on a 20 V process — and built active balancing, BMS software architecture, and distributed & centralized architectures; pioneered masterless, hot-swappable, parallelisable power networking.
-  - Built FreeSafe — a chemistry-agnostic, modular & safe BMS family (FS-XT / FS-LT) — with in-house Fusion embedded firmware and electronics design, manufactured with MAATEL in the Czech Republic.
+  - Built FreeSafe — a chemistry-agnostic, modular & safe BMS family (FS-XT / FS-LT) — with in-house Fusion embedded firmware and electronics design, manufactured in partnership with MAATEL through EMS subcontractors in the Czech Republic.
   - Built FreeWay, the first cloud platform to absorb telemetry from the embedded BMS for battery asset management and fleet monitoring.
   - Shipped to 25+ customers in demanding high-power markets — EVs, drones, speedboats, electric racing — including Airbus Safran, NTN-SNR and CarWatt.
   - Led the OPHELI research programme with G2Elab on in-situ battery aging; supervised a PhD thesis and hired multiple PhDs directly from the lab.
@@ -37,13 +37,13 @@ Design **modular and safe** battery-management systems that extend battery life 
 Freemens served demanding, high-power use cases: electric vehicles, drones, speedboats, and electric racing. By the time of the ION acquisition the company had shipped to more than 25 customers, including Airbus Safran, NTN-SNR, and CarWatt.
 
 ## Technology and innovation
-Freemens built cutting-edge battery technology: advanced **active balancing**, a modular **software architecture for battery management**, and both **distributed and centralized** battery-management architectures. The team pioneered **power networking** — masterless, hot-swappable, parallelisable batteries — the conceptual seed of the battery power-networking and meshing work later advanced at ION and Maxwell. Embedded software and electronics were developed in-house, with hardware manufactured by **MAATEL** in the Czech Republic.
+Freemens built cutting-edge battery technology: advanced **active balancing**, a modular **software architecture for battery management**, and both **distributed and centralized** battery-management architectures. The team pioneered **power networking** — masterless, hot-swappable, parallelisable batteries — the conceptual seed of the battery power-networking and meshing work later advanced at ION and Maxwell. Embedded software and electronics were developed in-house, with hardware production run through a partnership with **MAATEL**, an electronics-manufacturing company near Grenoble specialising in medical devices and led by CEO **Franck Degiovanni**, which managed the EMS subcontractors producing the boards in the Czech Republic and Eastern Europe.
 
 ## Research
 Led the **OPHELI** research programme in collaboration with G2Elab, studying battery aging mechanisms in relation to real in-situ application usage. The work connected laboratory aging science to how batteries actually behave in the field, which fed directly into the state-estimation and life-prediction logic in the products. Alexandre also supervised a PhD thesis and hired several PhDs directly from G2Elab, building a research-grade engineering team.
 
 ## Funding and recognition
-- Early institutional backing: **INPG Entreprise SA** — represented by **Henri-Marc Michaud** — in 2012, followed by **Pertinence Invest** in 2013 and **Maatel** in 2015 — also Freemens' electronics manufacturing partner, in the Czech Republic.
+- Early institutional backing: **INP Entreprise** — represented by **Henri-Marc Michaud** — in 2012, followed by **Pertinence Invest** in 2013 and **Maatel** in 2015 — also Freemens' electronics manufacturing partner, based near Grenoble.
 - **Grand Prix of EDF's *Concours Énergie Intelligente*** — first edition, awarded November 2012 in Lyon. Freemens was selected from 55 European projects by a jury chaired by Bruno Bonnell.
 - **H2020 iModBatt** — €250 000 grant won in 2017, joining a 14-organisation European consortium designing a high-energy-density modular battery pack for automotive and stationary use. Freemens contributed a custom version of its BMS.
 
