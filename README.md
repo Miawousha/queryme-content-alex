@@ -2,25 +2,25 @@
 
 > 17 years engineering energy-management solutions, from silicon to cloud.
 
-Alexandre Collet is a battery and energy-management systems engineer who has built
-the field end to end — from power-electronics silicon to cloud battery intelligence —
-across four companies over 17 years.
+I'm a battery and energy-management systems engineer, and I've built the field end to
+end — from power-electronics silicon to cloud battery intelligence — across four
+companies over 17 years.
 
-His career began in 2009 in the **ACCIUM** incubation project at Grenoble's G2Elab,
+My career began in 2009 in the **ACCIUM** incubation project at Grenoble's G2Elab,
 turning power-electronics research into a company. ACCIUM became **Freemens** (2011),
-which he co-founded and led as CEO — building modular, safe battery-management systems
+which I co-founded and led as CEO — building modular, safe battery-management systems
 and the first cloud platform to ingest their telemetry. In 2018 Freemens was acquired
-by **ION Energy**, where as co-founder & CTO he scaled a 70-person France–India
+by **ION Energy**, where as co-founder & CTO I scaled a 70-person France–India
 engineering organisation, made ION the sole BMS supplier to Hero MotoCorp (India's first
 ISO 26262 / AIS-156 two-wheeler BMS, swappable and parallelisable), worked with Ola
 Electric, and signed multi-million BMS licensing deals across India, Europe and the US.
 
-In 2022 ION's hardware business was spun out as **Maxwell Energy Systems** and acquired
-by Tier-1 supplier Endurance Technologies; as CTO through 2025 he scaled functionally-safe
-BMS to millions of units sold and powered Royal Enfield's first electric
-motorcycle. In parallel he built **Altergo**, the cloud battery-intelligence platform he
-now leads full-time — extending the life of battery fleets for customers including AWS,
-Volvo, Beta Technologies and Adani.
+In 2022 ION's hardware business was spun out as **Maxwell Energy Systems**, which was
+acquired by Tier-1 supplier Endurance Technologies for **$40M**; as CTO through 2025 I
+scaled functionally-safe BMS to millions of units sold and powered Royal Enfield's first
+electric motorcycle. In parallel I built **Altergo**, the cloud battery-intelligence
+platform I now lead full-time — extending the life of battery fleets for customers
+including AWS, Volvo, Beta Technologies and Adani.
 
 🔗 [LinkedIn](https://www.linkedin.com/in/alexandrecollet/) · [altergo.io](https://altergo.io)
 
