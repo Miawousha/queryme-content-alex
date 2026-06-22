@@ -1,5 +1,6 @@
 ---
 name: Ontoloom
+description: "Capture le savoir professionnel sous forme d'artefacts typés adossés à GitHub, indexés pour la recherche sémantique et l'accès agent via MCP."
 year: 2026
 tags: &a1
   - ai

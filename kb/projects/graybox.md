@@ -1,5 +1,6 @@
 ---
 name: Graybox
+description: "A local-first, literature-grounded meta-ontology for modeling organizations as typed, validated data."
 year: 2026
 tags: &a1
   - ontology

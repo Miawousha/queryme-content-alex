@@ -1,5 +1,6 @@
 ---
 name: Altergo Battery Intelligence Platform
+description: "Cloud battery-intelligence platform: a digital-twin runtime running aging, state-estimation and BESS-optimisation models over fleet telemetry, managing ~700 MWh."
 year: 2022
 tags:
   - battery

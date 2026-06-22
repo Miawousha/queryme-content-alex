@@ -1,5 +1,6 @@
 ---
 name: Queritae
+description: "An agent-driven, queryable CV that answers recruiter and AI-agent questions from a public knowledge base, over web chat and MCP."
 year: 2026
 stack:
   - TypeScript

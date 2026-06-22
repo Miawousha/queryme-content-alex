@@ -1,5 +1,6 @@
 ---
 name: Ontoloom
+description: "Captures professional knowledge as typed, GitHub-backed artifacts, indexed for semantic search and agent access over MCP."
 year: 2026
 tags: &a1
   - ai

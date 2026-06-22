@@ -1,5 +1,6 @@
 ---
 name: Queritae
+description: "Un CV interrogeable piloté par agent qui répond aux questions des recruteurs et des agents IA depuis une base de connaissances publique, via chat web et MCP."
 year: 2026
 stack:
   - TypeScript

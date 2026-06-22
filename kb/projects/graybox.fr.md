@@ -1,5 +1,6 @@
 ---
 name: Graybox
+description: "Une méta-ontologie local-first, ancrée dans la littérature, pour modéliser les organisations sous forme de données typées et validées."
 year: 2026
 tags: &a1
   - ontology

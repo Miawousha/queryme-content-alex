@@ -1,5 +1,6 @@
 ---
 name: Learn Anything
+description: "OpenWindow, un tuteur IA qui transforme les manuels scolaires en leçons interactives multidisciplinaires (contributeur)."
 year: 2026
 tags: &a1
   - education

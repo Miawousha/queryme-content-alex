@@ -1,5 +1,6 @@
 ---
 name: Learn Anything
+description: "OpenWindow, an AI tutor that turns textbooks into interactive, multi-subject lessons (contributor)."
 year: 2026
 tags: &a1
   - education
