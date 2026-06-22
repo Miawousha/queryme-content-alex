@@ -29,8 +29,8 @@ including AWS, Volvo, Beta Technologies and Adani.
 ## About this repository
 
 This repo is the public knowledge base behind Alexandre's
-[queryme](https://github.com/alexcollet/queryme) deployment — the source of truth for his
-career, projects, and the AI agent that answers questions about them. The queryme app pulls
+[Queritae](https://github.com/alexcollet/queryme) deployment — the source of truth for his
+career, projects, and the AI agent that answers questions about them. The Queritae app pulls
 from this repo via its admin Content tab.
 
 - `persona.yaml` — identity (name, pronouns)

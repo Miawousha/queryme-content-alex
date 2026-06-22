@@ -1,5 +1,5 @@
 ---
-name: Queryme
+name: Queritae
 year: 2026
 stack:
   - TypeScript
