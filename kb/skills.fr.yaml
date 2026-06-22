@@ -5,6 +5,12 @@ skills:
     tags: [battery, hardware, expert]
     # Conception SOX (SOC, SOH, SOP), intégration BMS, technologies d'équilibrage,
     # vieillissement, comportement thermique, mise en parallèle, model-based design, émulation.
+  - name: Sécurité fonctionnelle
+    level: 5
+    years: 7
+    tags: [safety, hardware, expert]
+    # ISO 26262 (ASIL), AIS-156, HARA/AMDEC, dossiers de sécurité et une équipe
+    # FuSa dédiée ; premier BMS deux-roues conforme ISO 26262 et AIS-156 en Inde.
   - name: Électronique de puissance
     level: 4
     years: 17
@@ -40,3 +46,27 @@ skills:
     years: 2
     tags: [software, ai]
     # A construit Queryme — un CV piloté par agent — sur le Vercel AI SDK.
+  - name: Direction d'ingénierie & structuration d'équipes
+    level: 5
+    years: 14
+    tags: [leadership, management, expert]
+    # Constitution et montée en charge d'organisations d'ingénierie
+    # transfrontalières jusqu'à 70–100 personnes (Freemens, ION, Maxwell).
+  - name: Partenariats OEM & grands comptes
+    level: 4
+    years: 14
+    tags: [business, partnerships]
+    # Hero MotoCorp, Royal Enfield, Airbus Safran, AWS, Volvo, Adani — design wins
+    # et accords plateforme pluriannuels.
+  - name: Levée de fonds & relations investisseurs
+    level: 4
+    years: 14
+    tags: [business]
+    # Pre-Série A de 3,6 M$ menée par le Climate Pledge Fund d'Amazon ; subventions
+    # européennes et tours institutionnels.
+  - name: Fusions-acquisitions & intégration post-acquisition
+    level: 4
+    years: 7
+    tags: [business, leadership]
+    # Acquisition par ION (2018) ; pilotage de l'intégration de Maxwell par
+    # Endurance (40 M$) sur la période d'earn-out (2022–2025).

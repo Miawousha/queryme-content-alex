@@ -5,6 +5,12 @@ skills:
     tags: [battery, hardware, expert]
     # SOX design (SOC, SOH, SOP), BMS integration, balancing technologies,
     # aging, thermal behaviour, paralleling, model-based design, emulation.
+  - name: Functional safety
+    level: 5
+    years: 7
+    tags: [safety, hardware, expert]
+    # ISO 26262 (ASIL), AIS-156, HARA/FMEA, safety cases and a dedicated FuSa
+    # team; delivered India's first ISO 26262- and AIS-156-compliant 2-wheeler BMS.
   - name: Power electronics
     level: 4
     years: 17
@@ -40,3 +46,27 @@ skills:
     years: 2
     tags: [software, ai]
     # Built Queryme — an agent-driven CV — on the Vercel AI SDK.
+  - name: Engineering leadership & org scaling
+    level: 5
+    years: 14
+    tags: [leadership, management, expert]
+    # Built and scaled cross-border engineering orgs to 70–100 across hardware,
+    # firmware and software (Freemens, ION, Maxwell).
+  - name: OEM & enterprise partnerships
+    level: 4
+    years: 14
+    tags: [business, partnerships]
+    # Hero MotoCorp, Royal Enfield, Airbus Safran, AWS, Volvo, Adani — design wins
+    # and multi-year platform deals.
+  - name: Fundraising & investor relations
+    level: 4
+    years: 14
+    tags: [business]
+    # $3.6M pre-Series A led by Amazon's Climate Pledge Fund; EU grants and
+    # institutional rounds.
+  - name: M&A & post-acquisition integration
+    level: 4
+    years: 7
+    tags: [business, leadership]
+    # Acquired by ION (2018); led the $40M Endurance integration of Maxwell
+    # through the earn-out (2022–2025).
