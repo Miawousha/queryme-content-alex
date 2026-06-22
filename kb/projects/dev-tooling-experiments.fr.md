@@ -101,7 +101,7 @@ repos:
   - name: bisque
     url: https://github.com/Miawousha/bisque
     role: author
-    visibility: public
+    visibility: private
     description: Landing-page bac à sable sur Next.js 16 / React 19 / Tailwind 4 —
       un seul bouton qui ne fait rien.
     year: 2026

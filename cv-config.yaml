@@ -29,7 +29,11 @@ skills:
   all: true
 
 projects:
-  all: true
+  include:
+    - altergo-battery-intelligence-platform
+    - queryme
+    - learn-anything
+    - ontoloom
 
 talks:
   all: true

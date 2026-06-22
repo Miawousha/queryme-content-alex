@@ -101,7 +101,7 @@ repos:
   - name: bisque
     url: https://github.com/Miawousha/bisque
     role: author
-    visibility: public
+    visibility: private
     description: Landing-page sandbox on Next.js 16 / React 19 / Tailwind 4 — a
       single button that does nothing.
     year: 2026
