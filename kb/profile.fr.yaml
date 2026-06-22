@@ -1,5 +1,13 @@
 name: Alexandre Collet
 headline: Co-fondateur & CTO chez Altergo — 17 ans à concevoir des solutions de gestion de l'énergie, du silicium au cloud
+bio: "Co-fondateur & CTO, je conçois depuis 17 ans des technologies de gestion de batterie sur toute la chaîne — du silicium de l'électronique de puissance jusqu'à l'analyse cloud. Fondateur de Freemens (2011), puis co-fondateur d'ION Energy (2018) et d'Altergo (2021), j'ai bâti une organisation d'ingénierie franco-indienne de 70 personnes avant de développer la couche logicielle pilotée par l'IA qui gère aujourd'hui ~700 MWh de capacité batterie."
+achievements:
+  - "**3 entreprises fondées** — Freemens (2011), ION Energy (2018) et Altergo (2021), du silicium au cloud."
+  - "**Organisation de 70 ingénieurs** bâtie et dirigée entre la France et l'Inde, du matériel à la sûreté de fonctionnement."
+  - "**Plus de 65 000 BMS connectés** déployés dans 12–15 pays, fabriqués à 100 % en Inde."
+  - "**~700 MWh sous gestion** sur la plateforme Altergo, avec ~15 % de durée de vie gagnée."
+  - "**Pre-Série A de 3,6 M$** menée par le Climate Pledge Fund d'Amazon — son premier investissement hors des États-Unis."
+  - "**Fournisseur BMS exclusif de Hero MotoCorp** — premier BMS deux-roues conforme ISO 26262 et AIS-156 en Inde."
 location: France
 languages: [en, fr]
 links:
