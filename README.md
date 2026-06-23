@@ -22,7 +22,7 @@ electric motorcycle. In parallel I built **Altergo**, the cloud battery-intellig
 platform I now lead full-time — extending the life of battery fleets for customers
 including AWS, Volvo, Beta Technologies and Adani.
 
-🔗 [LinkedIn](https://www.linkedin.com/in/alexandrecollet/) · [altergo.io](https://altergo.io)
+🔗 [LinkedIn](https://www.linkedin.com/in/alexandre-collet-409b0625) · [altergo.io](https://altergo.io)
 
 ---
 
