@@ -7,7 +7,7 @@ location: France et Inde
 summary: Co-fondateur & CTO d'une société batterie immatriculée aux États-Unis et basée à Mumbai ; mise à l'échelle d'une organisation BMS France–Inde de 70 personnes, du silicium au cloud.
 highlights:
   - Co-fondateur & CTO après le rachat de Freemens par ION (immatriculée aux États-Unis, siège à Mumbai) en 2018 ; construction et direction d'une organisation de ~70 ingénieurs France–Inde en matériel, firmware et logiciel.
-  - Pilotage de la feuille de route technologique complète — gamme BMS agnostique de la chimie (FS-LT/CT/XT, 200+ paramètres), boîtier télématique automobile (TCU), et l'écosystème UDYR (batterie portable 48 V pour scooters) + station d'échange NEXUS (finalement cédé sous licence à Exicom).
+  - Pilotage de la feuille de route technologique — gamme BMS agnostique de la chimie (FS-LT/CT/XT, 200+ paramètres), boîtier télématique automobile (TCU), et l'écosystème UDYR (batterie 48 V pour scooters) + station d'échange NEXUS (finalement cédé sous licence à Exicom).
   - ION devenu fournisseur exclusif de BMS pour Hero MotoCorp, livrant le premier BMS deux-roues d'Inde conforme à la fois à l'ISO 26262 et à l'AIS-156, avec gestion de batterie swappable et parallélisable.
   - Conception du BMS des deux-roues électriques d'Ola Electric (2018) — non passé en production ; également fournisseur de Tata Motors et Okinawa sur le segment 2R/3R d'Inde.
   - Signature de contrats de licence BMS de plusieurs millions de dollars en Inde, en Europe et aux États-Unis (ex. engagement Wamtechnik 1 M$→15 M$ ; IBS).

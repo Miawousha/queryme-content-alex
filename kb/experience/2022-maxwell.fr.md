@@ -12,7 +12,7 @@ highlights:
   - Passage en production de volume du programme Hero MotoCorp — premier BMS deux-roues à sûreté fonctionnelle d'Inde — avec le Tech Center de HMCL en Allemagne.
   - Élargissement de la gamme au-delà du BMS — boîtiers télématiques (TCU), chargeurs embarqués et unités de contrôle moteur (MCU).
   - Montée du matériel et firmware BMS aux normes de qualification automobile et de sûreté fonctionnelle dans un groupe industriel de rang 1 ; plus de 85 clients dans plus de 15 pays.
-  - Pilotage des axes technologiques — réseau & maillage de puissance batterie, multi-chimie (sodium-ion / électrolyte solide), sûreté fonctionnelle (FuSa), télémétrie cloud & diagnostics ML à distance, OTA & cybersécurité, architecture définie par logiciel, et outils internes HIL & PLM.
+  - Pilotage des axes technologiques — réseau & maillage de puissance, multi-chimie (sodium-ion / électrolyte solide), sûreté fonctionnelle (FuSa), télémétrie cloud & diagnostics ML à distance, OTA & cybersécurité, architecture définie par logiciel, outils internes HIL & PLM.
 stack: [BMS hardware, Embedded firmware, Functional safety, Automotive qualification]
 tags: [cto, hardware, battery, automotive]
 ---
