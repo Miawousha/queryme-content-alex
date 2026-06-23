@@ -12,7 +12,7 @@ highlights:
   - ~700 MWh de capacité batterie sous gestion, avec ~15 % d'extension de durée de vie des actifs, 1,5 %+ de capacité utile récupérée et la prévention de la plupart des défaillances précoces de BESS.
   - Clients dont AWS (UPS de centres de données), Volvo (camions électriques), Plus Power (simulation d'arbitrage énergétique, États-Unis), Beta Technologies (vol autonome) et esVolta (581 MWh).
   - Conseil auprès d'Adani depuis 2025 pour déployer l'intelligence batterie sur leur projet de stockage de 30 GWh à Khavda, en Inde.
-stack: [Data science, Machine learning, Cloud platform, Digital twin]
+stack: [Science des données, Machine learning, Plateforme cloud, Jumeau numérique]
 tags: [co-founder, cto, software, battery, ai]
 ---
 

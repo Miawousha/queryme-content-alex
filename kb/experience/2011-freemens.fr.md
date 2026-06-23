@@ -14,7 +14,7 @@ highlights:
   - Pilotage du programme de recherche OPHELI avec le G2Elab sur le vieillissement des batteries en usage réel ; encadrement d'une thèse de doctorat et recrutement de plusieurs docteurs directement issus du laboratoire.
   - Lauréat du Grand Prix du Concours Énergie Intelligente d'EDF (2012, parmi 55 projets européens) et d'une subvention H2020 iModBatt de 250 k€ (2017).
   - Rachat par ION Energy (Mumbai) en février 2018 — premier rachat transfrontalier de ce type en gestion de batterie ; toute l'équipe et la technologie FreeSafe/Fusion/FreeWay ont rejoint ION.
-stack: [ASIC design, Power electronics, Embedded firmware, Cloud monitoring]
+stack: ["Conception d'ASIC", Électronique de puissance, Firmware embarqué, Supervision cloud]
 tags: [founder, ceo, hardware, battery]
 ---
 
