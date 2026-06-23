@@ -13,7 +13,7 @@ highlights:
   - Élargissement de la gamme au-delà du BMS — boîtiers télématiques (TCU), chargeurs embarqués et unités de contrôle moteur (MCU).
   - Montée du matériel et firmware BMS aux normes de qualification automobile et de sûreté fonctionnelle dans un groupe industriel de rang 1 ; plus de 85 clients dans plus de 15 pays.
   - Pilotage des axes technologiques — réseau & maillage de puissance, multi-chimie (sodium-ion / électrolyte solide), sûreté fonctionnelle (FuSa), télémétrie cloud & diagnostics ML à distance, OTA & cybersécurité, architecture définie par logiciel, outils internes HIL & PLM.
-stack: [Matériel BMS, Firmware embarqué, Sûreté fonctionnelle, Qualification automobile]
+stack: [BMS, Firmware embarqué, Sûreté fonctionnelle, Qualification automobile]
 tags: [cto, hardware, battery, automotive]
 ---
 

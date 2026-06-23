@@ -14,7 +14,7 @@ highlights:
   - Lancement d'Edison Analytics (2019) — la plateforme d'intelligence batterie / jumeaux numériques, renommée Altergo et essaimée en 2021.
   - Déploiement porté à plus de 65 000 BMS intelligents dans ~12–15 pays, avec 100 % de la fabrication localisée en Inde.
   - Levée d'une pré-Série A de 3,6 M$ (juillet 2021) menée par le Climate Pledge Fund d'Amazon — son premier investissement hors États-Unis.
-stack: [Matériel BMS, Firmware embarqué, Analyse cloud, Machine learning, Sûreté fonctionnelle]
+stack: [BMS, Firmware embarqué, Analyse cloud, Machine learning, Sûreté fonctionnelle]
 tags: [co-founder, cto, hardware, battery, scale-up]
 ---
 
