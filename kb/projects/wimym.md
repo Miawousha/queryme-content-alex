@@ -41,3 +41,7 @@ The engine is Python 3 using only the standard library: it scans transcripts, ke
 ## Status
 
 Open source under the AGPL-3.0 since 28 October 2026, with a public site at wimym.matricetechnologies.com and a guided setup that Claude Code can follow. First built in a local repository under the name Mirror, whose history quotes real messages and was not published; the public repository starts on 23 October 2026. Merging into `main` is the release. Last activity in November 2026.
+
+## Articles
+
+- [Introducing Wimym: where is your mind?](https://matricetechnologies.com/blog/introducing-wimym) (October 26, 2026), the launch article on the Matrice blog.

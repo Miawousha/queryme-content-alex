@@ -68,3 +68,11 @@ Chaque fiche de concept suit la même forme : une définition en une ligne, une 
 ## Status
 
 Le travail s'est étalé du 9 octobre au 5 novembre 2026, puis a été rassemblé dans le dépôt en un seul commit le 5 novembre. Les quatre fiches de concepts ont été figées entre le 11 et le 15 octobre ; « juger » et « répondre de » restent à écrire. La conception du cours est un ensemble d'hypothèses de travail : le périmètre a été arrêté sur le principe lors de la première séance de travail, le 16 octobre, et aucun cours n'a encore été donné. L'intervention est prévue en novembre 2026 ; le dépôt ne donne pas de date précise et n'indique pas qu'elle a eu lieu. Côté écriture, l'essai sur la planification est terminé, « Work 2.0 » est publié, les articles 2 à 4 de la série sont à l'état de plan, et « Tools before agents » est un premier brouillon daté du 3 novembre. Dépôt privé.
+
+## Articles
+
+Les textes issus de ce travail publiés sur le blog de Matrice (en anglais) :
+
+- [My take on Planning with Agents](https://matricetechnologies.com/blog/planning-with-agents) (26 octobre 2026)
+- [Work 2.0](https://matricetechnologies.com/blog/work-2-0) (2 novembre 2026), article 1 de la série sur les étapes de la délégation
+- [From Excel to Agents orchestration](https://matricetechnologies.com/blog/tools-before-agents) (4 novembre 2026), la version publiée de « Tools before agents »

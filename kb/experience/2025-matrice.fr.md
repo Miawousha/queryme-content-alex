@@ -16,10 +16,10 @@ tags: [founder, ai, agents, consulting, software]
 ---
 
 ## Contexte
-Matrice Technologies est l'entreprise d'Alexandre, créée en décembre 2025. Elle avance sur deux fronts : elle construit ses propres produits avec des agents IA, et elle aide d'autres entreprises à adopter cette façon de travailler. Les missions se déroulent à livre ouvert avec le client : chaque mission dispose d'un dépôt partagé que lisent et modifient humains et agents, publié en direct sous forme d'espace client sur le site de Matrice.
+Matrice Technologies est la quatrième entreprise d'Alexandre, créée en décembre 2025. Elle avance sur deux fronts : elle construit ses propres produits avec des agents IA, et elle aide d'autres entreprises à adopter cette façon de travailler.
 
 ## Rôle
-Fondateur. Alexandre conçoit et construit lui-même les produits, en pilotant de nombreuses sessions Claude Code en parallèle, et dirige les missions clients.
+Fondateur. Alexandre conçoit et construit lui-même les produits, en pilotant des flottes d'agents, et dirige les missions clients.
 
 ## Ce que construit Matrice
 - **Missions clients.** Une mission de transformation IA avec Truva (juillet à octobre 2026) : une plateforme de formation pour les employés de Truva, des postes de travail où un agent et une personne construisent ensemble les fiches de cartographie et d'estimation, une base de connaissances sur le modèle opérationnel pour ouvrir de nouvelles agences, et un guide de vente pour un coach d'appels en direct. Voir les projets Truva. Une mission de conseil pour Maxwell Energy Systems (mxwl), l'entreprise de BMS cofondée par Alexandre, à partir d'août 2026. Voir le projet Maxwell.

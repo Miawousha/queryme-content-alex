@@ -49,3 +49,7 @@ Le contrôle d'accès vient de la première version : authentification Supabase 
 ## Status
 
 La v2 est le site en ligne, avec un travail actif jusqu'en novembre 2026, surtout sur les articles du blog. La première version n'a plus reçu de commit depuis août 2026. Les deux dépôts sont privés et internes à Matrice.
+
+## Articles
+
+Le blog est à l'adresse [matricetechnologies.com/blog](https://matricetechnologies.com/blog). Ses huit articles, de juillet à novembre 2026, ont chacun leur fiche dans la collection Articles de cette base de connaissances.
