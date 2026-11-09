@@ -10,7 +10,7 @@ My career began in 2009 in the **ACCIUM** incubation project at Grenoble's G2Ela
 turning power-electronics research into a company. ACCIUM became **Freemens** (2011),
 which I co-founded and led as CEO — building modular, safe battery-management systems
 and the first cloud platform to ingest their telemetry. In 2018 Freemens was acquired
-by **ION Energy**, where as co-founder & CTO I scaled a 70-person France–India
+by **ION Energy**, where as co-founder & CTO I scaled a 100+ person France–India
 engineering organisation, made ION the sole BMS supplier to Hero MotoCorp (India's first
 ISO 26262 / AIS-156 two-wheeler BMS, swappable and parallelisable), worked with Ola
 Electric, and signed multi-million BMS licensing deals across India, Europe and the US.
