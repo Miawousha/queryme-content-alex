@@ -1,12 +1,12 @@
 ---
 company: Matrice Technologies
 role: Founder
-start: "2026-03"
+start: "2025-12"
 end: present
 location: France
 summary: An agentic engineering studio that builds its own products with AI agents and helps companies do the same.
 highlights:
-  - "Founded Matrice Technologies (matricetechnologies.com) in 2026 to build software and hardware products with AI agents, and to bring the same way of working to client companies."
+  - "Founded Matrice Technologies (matricetechnologies.com) in December 2025 to build software and hardware products with AI agents, and to bring the same way of working to client companies."
   - "Ran an AI-transformation engagement for Truva, a Mumbai resale-homes platform, from July to October 2026, shipping a live training platform (Truva Academy) and agent workstations for mapping, valuation and sales."
   - "Built Eloom, an agentic workspace for the electronics product lifecycle, with worked-example products designed end to end by agents and people."
   - "Shipped public tools for people working with agents, including Wimym (a weekly retro over your own Claude Code history), Polish (system-wide text polishing) and Oxide (a native macOS markdown workbench)."
@@ -16,7 +16,7 @@ tags: [founder, ai, agents, consulting, software]
 ---
 
 ## Context
-Matrice Technologies is Alexandre's company, started in March 2026. It works in two directions at once: it builds its own products with AI agents, and it helps other companies adopt the same way of working. Client work is run in the open with the client: each engagement has a shared repository that people and agents read and write, rendered live as a client room on the Matrice website.
+Matrice Technologies is Alexandre's company, started in December 2025. It works in two directions at once: it builds its own products with AI agents, and it helps other companies adopt the same way of working. Client work is run in the open with the client: each engagement has a shared repository that people and agents read and write, rendered live as a client room on the Matrice website.
 
 ## Role
 Founder. Alexandre designs and builds the products himself, working with many Claude Code sessions in parallel, and leads the client engagements.
