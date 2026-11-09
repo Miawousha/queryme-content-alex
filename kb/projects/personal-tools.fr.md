@@ -48,6 +48,110 @@ repos:
       - svelte
       - productivity
       - docs
+  - name: xblock
+    url: https://github.com/matrice-technologies/xblock
+    role: author
+    visibility: public
+    description: Extension Chrome pour bloquer rapidement sur X, avec des listes de
+      blocage partageables et un serveur auto-hébergeable.
+    year: 2026
+    last_active: 2026-10
+    language: TypeScript
+    archived: false
+    tags:
+      - browser-extension
+      - typescript
+      - express
+      - prisma
+      - open-source
+  - name: book1doc
+    url: https://github.com/Miawousha/book1doc
+    role: author
+    visibility: public
+    description: Montre les créneaux Doctolib réellement réservables par un nouveau
+      patient, via une extension, une application web et une CLI. Non affilié à
+      Doctolib.
+    year: 2026
+    last_active: 2026-08
+    language: HTML
+    archived: false
+    tags:
+      - browser-extension
+      - python
+      - healthcare
+      - open-source
+  - name: papylantir
+    role: author
+    visibility: private
+    description: Agent de veille nocturne pour la porte d'entrée d'un proche âgé,
+      avec analyse de scène, conversation vocale et alertes silencieuses.
+    year: 2026
+    last_active: 2026-09
+    language: Python
+    archived: false
+    tags:
+      - python
+      - ai-agents
+      - computer-vision
+      - voice
+      - gemini
+  - name: matrice-osint-fisc
+    role: author
+    visibility: private
+    description: Outils OSINT sur sources publiques françaises pour le journalisme
+      d'investigation en matière fiscale et financière.
+    year: 2026
+    last_active: 2026-10
+    language: Python
+    archived: false
+    tags:
+      - osint
+      - python
+      - cli
+      - open-data
+      - journalism
+  - name: coolify-cli
+    url: https://github.com/matrice-technologies/coolify-cli
+    role: author
+    visibility: public
+    description: CLI légère pour piloter une instance Coolify v4 auto-hébergée
+      (déploiement, variables d'environnement, inspection), pensée pour des
+      déploiements menés depuis une conversation.
+    year: 2026
+    last_active: 2026-07
+    language: TypeScript
+    archived: false
+    tags:
+      - cli
+      - devops
+      - typescript
+      - open-source
+  - name: nextjs-boilerplate
+    role: author
+    visibility: private
+    description: Socle SaaS Next.js avec authentification Supabase, espaces de
+      travail, membres et invitations, projets et paramètres.
+    year: 2026
+    last_active: 2026-08
+    language: TypeScript
+    archived: false
+    tags:
+      - nextjs
+      - supabase
+      - typescript
+      - boilerplate
+  - name: ionenergy-website
+    role: author
+    visibility: private
+    description: Site vitrine réalisé pour ION Energy avec Next.js et shadcn/ui.
+    year: 2026
+    last_active: 2026-09
+    language: TypeScript
+    archived: false
+    tags:
+      - nextjs
+      - website
+      - typescript
 ---
 
 Quelques petits outils de productivité personnels.
@@ -96,3 +200,115 @@ Svelte 4 + TypeScript + Vite, pas de SvelteKit, pas de backend — `index.html` 
 
 ### Status
 Actif en 2026-01 pour l'engagement BESS ADANI sur 24 mois — pilote les syncs hebdo et le suivi de certification. Rôle contributeur — Alexandre a construit le viewer et le parser DSL, écrit la liste de tâches, possède la majeure partie du markdown de planification. Outil mono-utilisateur aujourd'hui ; partageable en équipe dans le navigateur sans infra.
+
+## xblock
+
+XBlock est une extension Chrome pour bloquer rapidement des comptes sur X (anciennement Twitter), avec des listes de blocage que l'on peut partager et auxquelles on peut s'abonner. Matrice Technologies l'a publiée en open source sous licence MIT en octobre 2026, avec son serveur d'API auto-hébergeable et un site public.
+
+### What
+
+Depuis le site de X, l'utilisateur bloque un compte en un clic et l'ajoute à sa propre liste. Une liste se partage par un code ; ses abonnés bloquent alors automatiquement tous les comptes qu'elle contient, ce qui se prête à la modération communautaire. L'extension et le site existent en sept langues (anglais, français, espagnol, allemand, japonais, portugais du Brésil, indonésien), et l'extension est disponible sur le Chrome Web Store. Le blocage s'accompagne d'animations propres à l'extension, dont un mode « Samurai » où le message est découpé en morceaux ; le haut de la page d'accueil du site en propose une démonstration jouable sur un faux fil d'actualité.
+
+### Tech
+
+Un dépôt en trois parties. `chrome_extension/` est une extension Manifest V3 construite avec webpack, traduite au moyen des fichiers de messages i18n de Chrome. `server/` est une API Express 5 avec Prisma sur SQLite et une limitation du débit ; un secret côté serveur transforme le jeton de chaque utilisateur en identifiant par HMAC, les origines d'extension autorisées sont déclarées pour CORS, et des points d'accès d'administration facultatifs donnent des statistiques d'usage et des listes sélectionnées. Le serveur est livré sous forme d'image Docker qui applique les migrations au démarrage. `website/` est un site Next.js avec Tailwind et shadcn/ui, avec un dictionnaire par langue vérifié par un script, et les visuels du Chrome Web Store sont générés à partir du site. `DEPLOY.md` explique comment héberger son propre serveur.
+
+### Status
+
+Publié en open source le 30 octobre 2026 en version 1.6.4 ; version 1.7.1, avec les sept langues, le même jour. Dépôt public.
+
+## book1doc
+
+book1doc montre les créneaux Doctolib qu'un nouveau patient peut réellement réserver. La page de recherche de Doctolib affiche, pour chaque praticien, la prochaine disponibilité du motif de consultation retenu par son moteur, et pour les spécialistes il s'agit souvent d'un suivi ou d'un examen technique qu'un patient qui n'a jamais consulté n'a pas le droit de réserver, ce qu'on ne découvre que plusieurs clics plus loin. Non affilié à Doctolib ; projet personnel, publié sur le compte GitHub personnel d'Alexandre.
+
+### What
+
+Trois interfaces partagent la même logique. DoctoBook, une extension pour Chrome, Edge et Firefox, ajoute à chaque fiche de la page de résultats Doctolib une ligne indiquant ce qu'un nouveau patient peut réserver, et quand. Une petite application web prend une URL de recherche collée et range les praticiens en trois groupes : réellement réservable, affiché mais pas pour un nouveau patient, et rien en ligne. Une CLI Python lance la même recherche avec export HTML et JSON, des filtres sur le secteur de conventionnement et l'âge, et une recherche élargie autour des coordonnées. Le README donne un exemple mesuré : pour une spécialité dans une ville, le 28 août 2026, 10 praticiens listés, 8 affichés comme disponibles, et 1 seul réellement réservable pour une première consultation.
+
+### Tech
+
+L'outil appelle les points d'accès publics et non authentifiés de Doctolib (recherche, informations du parcours de réservation, disponibilités) et réimplémente la règle, appliquée côté navigateur, qui décide si un motif de consultation est ouvert aux nouveaux patients, ainsi que les restrictions de conventionnement et d'âge ; les noms des motifs servent seulement à étiqueter et à ordonner les résultats. L'extension envoie les requêtes depuis la session du navigateur de l'utilisateur, sans serveur central. L'application web n'a besoin d'un backend que parce que Doctolib n'envoie pas d'en-tête CORS : un serveur Node sans état, à quatre routes validées, déployable sur Cloudflare Workers avec Wrangler. La CLI n'utilise que la bibliothèque standard de Python et `certifi`.
+
+### Status
+
+Publié le 31 août 2026 sous licence MIT. Dépôt public.
+
+## papylantir
+
+Papylantir est un agent de veille nocturne pour la porte d'entrée du domicile d'un proche âgé, construit en septembre 2026. Quand quelqu'un bouge devant la porte la nuit, l'agent lui parle par un haut-parleur, écoute, évalue s'il semble réveillé et orienté, l'invite doucement à retourner se coucher, et prévient la famille si nécessaire.
+
+### What
+
+La conception part de l'hypothèse qu'un passage nocturne est ordinaire, et cherche à rester calme et bref. Un agent de vision décrit la scène environ une fois par seconde sous une forme JSON fixe (qui est présent, ce qu'il fait, un niveau de risque), et une règle codée n'ouvre une conversation que sur des signes concrets de sortie, comme une main sur la poignée, des clés, des chaussures ou un manteau. Un agent superviseur relit le journal de la nuit toutes les quelques secondes pour repérer ce qu'une image isolée ne montre pas, comme une longue immobilité ou des allers-retours, et c'est le seul chemin vers une alerte ; une porte d'entrée ouverte déclenche une alerte urgente par une règle écrite en dur. L'agent vocal se présente comme l'assistant de la maison, jamais comme un proche, et ne dit jamais à voix haute qu'il prévient quelqu'un. La surveillance ne fonctionne que pendant les heures de nuit configurées et démarre en pause.
+
+### Tech
+
+Python 3.12. Détection de mouvement avec OpenCV (ou détection de personne en option), compréhension de scène avec Gemini Flash-Lite, et un superviseur Claude dont la sortie JSON est contrainte par un schéma. Deux chaînes vocales interchangeables : Silero VAD, faster-whisper et réponses Claude en streaming lues par ElevenLabs ; ou une seule session Gemini Live pilotée par une machine à états explicite, dans laquelle c'est le code, et non le modèle, qui décide de chaque transition. Les alertes partent vers ntfy ou un webhook. Un tableau de bord FastAPI sur le réseau local affiche la vidéo en direct, l'état des agents, les images analysées et le journal des événements, et rejoue les épisodes enregistrés à partir d'un journal d'état ; chaque épisode est enregistré avec la vidéo qui précède le déclenchement, les deux pistes audio et l'ensemble des échanges avec l'IA. Caméra, micro et haut-parleur se changent par configuration, d'une webcam à une caméra RTSP.
+
+### Status
+
+Construit du 8 au 10 septembre 2026 ; une première version qui tourne sur un PC local. Dépôt privé.
+
+## matrice-osint-fisc
+
+matrice-osint-fisc est un ensemble d'outils OSINT sur sources publiques françaises, construit chez Matrice Technologies en octobre 2026 pour appuyer le journalisme d'investigation en matière fiscale et financière. Il est pensé pour être utilisé avec Claude : le journaliste pose sa question, Claude appelle l'outil `fisc`, recoupe les résultats et tient le dossier d'enquête selon des règles de méthode écrites.
+
+### What
+
+La CLI `fisc` recherche, pour une personne, les mandats sociaux, les annonces légales et les déclarations d'intérêts des responsables publics ; dresse la fiche d'une société et de ses dirigeants ; construit le réseau de sociétés et de holdings autour d'une personne, avec en option les biens immobiliers détenus par ces sociétés ; compare les déclarations d'intérêts au registre des entreprises ; interroge les bases de fuites offshore et les listes de sanctions ; et passe au crible tous les déclarants nationaux pour repérer les mandats absents de leurs déclarations, classés par niveau de confiance. Une commande de banc d'essai rejoue des affaires déjà jugées. Un dossier peut être présenté sous forme de page de synthèse avec une version anonymisée, et exporté en un seul fichier chiffrable par phrase de passe. L'outil ne qualifie rien : il dit ce que contiennent les registres publics, où et quand, et à quel point un enregistrement correspond à la personne recherchée.
+
+### Tech
+
+Python, géré avec uv, avec httpx, DuckDB (qui lit à distance des fichiers Parquet publiés par l'administration fiscale) et PyYAML. Les sources comprennent l'API de l'Annuaire des Entreprises (RNE et SIRENE), le BODACC, la HATVP, les données de la DGFiP sur les biens des personnes morales, les Offshore Leaks de l'ICIJ et OpenSanctions. Les réponses brutes peuvent être archivées dans le dossier d'enquête avec URL, date et empreinte SHA-256, et chaque commande dispose d'une sortie JSON destinée à Claude. Les graphes de réseau s'exportent en JSON, Mermaid, GraphML et en vue HTML consultable hors ligne, construite avec Cytoscape.js. Un skill Claude Code décrit la démarche d'enquête.
+
+### Status
+
+Construit les 22 et 23 octobre 2026. Dépôt privé.
+
+## coolify-cli
+
+coolify-cli est un petit outil en ligne de commande pour piloter une instance Coolify v4 auto-hébergée, écrit chez Matrice Technologies en juillet 2026 pour pouvoir lancer des déploiements depuis une conversation avec un agent.
+
+### What
+
+Les commandes couvrent les profils (`config set`, `config use`, `config ls` avec jetons masqués), la liste des applications, services, bases de données, projets et serveurs, l'inspection d'une ressource par nom ou UUID, le déploiement avec suivi de son état, et la consultation, la définition ou la suppression de variables d'environnement avec redéploiement en option. Les commandes de lecture acceptent `--json` pour une sortie exploitable par machine, et `COOLIFY_URL` et `COOLIFY_TOKEN` l'emportent sur les profils enregistrés.
+
+### Tech
+
+TypeScript avec commander, construit avec tsup, testé avec Vitest, avec un résolveur nom vers UUID, des utilitaires de sortie en tableau et en JSON, et un workflow GitHub Actions qui teste et construit à chaque push et pull request.
+
+### Status
+
+Version 0.1.1 publiée le 13 juillet 2026. Dépôt public.
+
+## nextjs-boilerplate
+
+nextjs-boilerplate est le point de départ de Matrice Technologies pour ses produits Next.js, créé en août 2026 : les briques dont tout produit a besoin, tirées d'un produit qui fonctionne, dont on a retiré le produit.
+
+### What
+
+Authentification par lien magique et Google OAuth via Supabase ; espaces de travail avec logo, que l'on crée, change, renomme et supprime ; membres avec rôles propriétaire, administrateur et membre, invitations par e-mail qui expirent et un garde-fou qui empêche un espace de perdre son dernier propriétaire ; projets, avec une page presque vide où vient se loger le produit ; et une section de paramètres pour le profil, l'apparence, l'espace de travail et les membres. Aune est construit sur cette base et en garde la trace.
+
+### Tech
+
+Next.js 16, React 19, TypeScript, shadcn sur Base UI et Tailwind 4, avec thèmes clair et sombre. Le schéma Supabase tient en trois migrations (tables et déclencheurs, politiques de sécurité au niveau des lignes et droits, espaces de stockage), et le README détaille les pièges de la combinaison entre droits et RLS. Le déploiement repose sur un serveur Coolify qui héberge à la fois Supabase et l'application, mené par un agent Claude selon une procédure écrite.
+
+### Status
+
+Créé les 12 et 13 août 2026. Dépôt privé.
+
+## ionenergy-website
+
+ionenergy-website est le site vitrine qu'Alexandre a réalisé pour ION Energy, éditeur de logiciels d'intelligence batterie pour les flottes de véhicules électriques et le stockage à l'échelle du réseau.
+
+### What
+
+Un site d'une seule page, avec un composant par section, des études de cas en PDF à télécharger et une image d'aperçu pour les réseaux sociaux générée à la compilation. Tous les textes, chiffres et liens se trouvent dans un seul fichier de contenu, pour être modifiés au même endroit.
+
+### Tech
+
+Next.js (App Router), React 19, Tailwind CSS 4, shadcn/ui et les icônes lucide, avec les couleurs de la marque définies en variables CSS.
+
+### Status
+
+Réalisé d'abord en juillet 2026 comme une reconstruction en Next.js de l'ancien site d'Altergo conçu avec Framer, puis adapté à la marque ION Energy en septembre 2026. Dépôt privé.

@@ -16,6 +16,7 @@
 
 experience:
   include:
+    - 2026-matrice
     - 2025-altergo
     - 2022-maxwell
     - 2018-ion-energy
@@ -31,9 +32,12 @@ skills:
 projects:
   include:
     - altergo-battery-intelligence-platform
+    - truva-ai-transformation
+    - truva-academy
+    - eloom
+    - oxide
+    - wimym
     - queryme
-    - learn-anything
-    - ontoloom
     - graybox
 
 talks:
