@@ -6,7 +6,7 @@ end: present
 location: France
 summary: An agentic engineering studio that builds its own products with AI agents and helps companies do the same.
 highlights:
-  - "Founded Matrice Technologies (matricetechnologies.com) in December 2025 to build software and hardware products with AI agents, and to bring the same way of working to client companies."
+  - "Founded Matrice Technologies (matricetechnologies.com) in December 2025."
   - "Ran an AI-transformation engagement for Truva, a Mumbai resale-homes platform, from July to October 2026, shipping a live training platform (Truva Academy) and agent workstations for mapping, valuation and sales."
   - "Built Eloom, an agentic workspace for the electronics product lifecycle, with worked-example products designed end to end by agents and people."
   - "Shipped public tools for people working with agents, including Wimym (a weekly retro over your own Claude Code history), Polish (system-wide text polishing) and Oxide (a native macOS markdown workbench)."
