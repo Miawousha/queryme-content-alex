@@ -1,6 +1,7 @@
 # Declares the content collections for this persona. Mirrors the app's default
 # resume preset and adds a `publications` collection (markdown, generic schema)
-# so academic output surfaces in the chat agent and the KB panel.
+# and an `articles` collection (blog articles on matricetechnologies.com),
+# so academic output and writing surface in the chat agent and the KB panel.
 #
 # NOTE: publications are NOT rendered on the printable CV — the CV renders a
 # fixed set of sections (experience, education, skills, projects, talks, code).
@@ -29,6 +30,15 @@ collections:
   - name: projects
     kind: markdown
     schema: project
+  - name: articles
+    kind: markdown
+    schema: generic
+    label:
+      en: Articles
+      fr: Articles
+    sort:
+      field: date
+      order: desc
   - name: publications
     kind: markdown
     schema: generic

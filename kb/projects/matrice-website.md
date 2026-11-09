@@ -48,3 +48,7 @@ Access control comes from the first version: Supabase auth with `profiles` and `
 ## Status
 
 v2 is the live site, with active work through November 2026, mostly on blog articles. The first version has had no commits since August 2026. Both repositories are private and internal to Matrice.
+
+## Articles
+
+The blog is at [matricetechnologies.com/blog](https://matricetechnologies.com/blog). Its eight articles, from July to November 2026, each have their own entry in the Articles collection of this knowledge base.

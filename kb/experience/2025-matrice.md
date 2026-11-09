@@ -16,10 +16,10 @@ tags: [founder, ai, agents, consulting, software]
 ---
 
 ## Context
-Matrice Technologies is Alexandre's company, started in December 2025. It works in two directions at once: it builds its own products with AI agents, and it helps other companies adopt the same way of working. Client work is run in the open with the client: each engagement has a shared repository that people and agents read and write, rendered live as a client room on the Matrice website.
+Matrice Technologies is Alexandre's fourth company, started in December 2025. It works in two directions at once: it builds its own products with AI agents, and it helps other companies adopt the same way of working.
 
 ## Role
-Founder. Alexandre designs and builds the products himself, working with many Claude Code sessions in parallel, and leads the client engagements.
+Founder. Alexandre designs and builds the products himself, working with fleets of agents, and leads the client engagements.
 
 ## What Matrice builds
 - **Client work.** An AI-transformation engagement with Truva (July to October 2026): a training platform for Truva's employees, workstations where an agent and a person build mapping and valuation records together, an operating-model knowledge base for opening new offices, and a sales playbook for a live call coach. See the Truva projects. A consulting engagement with Maxwell Energy Systems (mxwl), the BMS company Alexandre co-founded, from August 2026. See the Maxwell project.

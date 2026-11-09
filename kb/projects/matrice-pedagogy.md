@@ -67,3 +67,11 @@ Each concept file follows the same shape: a one-line definition, a numbered deri
 ## Status
 
 The work ran from October 9 to November 5, 2026, and was gathered into the repository in one commit on November 5. The four concept files were frozen between October 11 and 15; "to judge" and "to answer for" are not written. The course design is a set of working hypotheses: the scope was agreed in principle at the first working session on October 16, and no course has been taught yet. The talk is set for November 2026; the repository gives no exact date and does not record it as given. On the writing side, the planning essay is complete, "Work 2.0" is published, articles 2 to 4 of the series are outlines, and "Tools before agents" is a first draft dated November 3. Private repository.
+
+## Articles
+
+The writing from this work that is published on the Matrice blog:
+
+- [My take on Planning with Agents](https://matricetechnologies.com/blog/planning-with-agents) (October 26, 2026)
+- [Work 2.0](https://matricetechnologies.com/blog/work-2-0) (November 2, 2026), article 1 of the stages-of-delegation series
+- [From Excel to Agents orchestration](https://matricetechnologies.com/blog/tools-before-agents) (November 4, 2026), the published version of "Tools before agents"

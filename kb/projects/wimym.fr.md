@@ -41,3 +41,7 @@ Le moteur est en Python 3 et n'utilise que la bibliothèque standard : il analys
 ## Status
 
 Open source sous licence AGPL-3.0 depuis le 28 octobre 2026, avec un site public à l'adresse wimym.matricetechnologies.com et une installation guidée que Claude Code peut suivre. D'abord développé dans un dépôt local sous le nom de Mirror, dont l'historique cite de vrais messages et n'a pas été publié ; le dépôt public commence le 23 octobre 2026. Une fusion dans `main` vaut publication. Dernière activité en novembre 2026.
+
+## Articles
+
+- [Introducing Wimym: where is your mind?](https://matricetechnologies.com/blog/introducing-wimym) (26 octobre 2026), l'article de lancement sur le blog de Matrice (en anglais).
